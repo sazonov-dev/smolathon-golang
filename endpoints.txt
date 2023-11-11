@@ -1,0 +1,15 @@
+
+
+-- For client
+/login
+/authorize
+/subs - all client's subs
+/events - all upcoming events
+/events:?event=... = to watch an event 
+
+-- For master
+/master - to authorize as a master
+/events/edit - CRUD for events // TODO
+
+/events:?event=.../subs
+

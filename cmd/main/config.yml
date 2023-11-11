@@ -1,0 +1,16 @@
+is_debug: true
+listen:
+  type: port
+  bind_ip: 127.0.0.1
+  port: 10000
+
+mongodb:
+  host: 0.0.0.0
+  port: 27017
+  database: smolathon
+  auth_db: 
+  username: root
+  password: rootpassword
+  masterCollection: master
+  #eventsCollection: events
+  cardsCollection: cards
